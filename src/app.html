@@ -1,12 +1,38 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Welcome to SyntaxCafe | The Developer Hub</title>
+	<meta name="description" content="Join SyntaxCafe to discuss coding, share projects, and connect with fellow developers." />
+	<meta name="keywords" content="SyntaxCafe, developers, coding, web development, forum, community" />
+	<meta name="author" content="The SyntaxCafe Team" />
+
+	<!-- Open Graph for social sharing -->
+	<meta property="og:title" content="Welcome to SyntaxCafe | The Developer Hub" />
+	<meta property="og:description" content="Join SyntaxCafe to discuss coding, share projects, and connect with fellow developers." />
+	<meta property="og:image" content="/og-image.png" />
+	<meta property="og:url" content="https://syntaxcafe.app/" />
+	<meta property="og:type" content="website" />
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Welcome to SyntaxCafe | The Developer Hub" />
+	<meta name="twitter:description" content="Join SyntaxCafe to discuss coding, share projects, and connect with fellow developers." />
+	<meta name="twitter:image" content="/img/og-image.png" />
+
+	<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
+	<link rel="shortcut icon" href="/img/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+	<meta name="apple-mobile-web-app-title" content="SyntaxCafe" />
+	<link rel="manifest" href="/img/site.webmanifest" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	%sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
 </html>
